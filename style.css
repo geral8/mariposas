@@ -1,0 +1,95 @@
+/*soy un comentario*/
+/* 
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+*/
+/*cambiar color de fondo de toda la pantalla*/
+
+            body {
+                 background-color: rgba(204, 226, 243, 0.753);
+                /*cambiar toda la fuente de la página web utilizando los elementos dados por el sistema poniendo font-family*/
+                /* pegamos lo 2 que viene en la página web*/
+                font-family: 'Caprasimo', cursive;
+                font-family: 'Nunito', sans-serif;
+                font-family: 'Nunito Sans', sans-serif;
+                font-family: 'Rubik', sans-serif;
+            
+            }
+            img{
+                    /*ancho y alto podemos utilizar px (pixeles)*/
+                    /*cambiar todas las imagenes a la vez*/
+                width: 150px;
+                height:150px ;
+            }
+ /*editar sólo un elemento de la imagen */
+ /* iniciando con un puntooooooo (.) para el llamado y que sea distinto*/
+            .imagen1{
+
+                width: 40%;
+                height: 400px;
+                margin-inline-start: 2.4cm;
+            }
+            .imagen2{
+                width: 600px;
+                height: 400px;
+            
+            }
+/*editar el color de los parrafos*/
+            p{
+            color: rgb(0, 0, 0);
+            /*justificar textos, en este caso párrafos*/
+            text-align: justify;
+        
+            }
+/*editar el color de los parrafos, llamandolo por la clase iniciando con un puntooooo*/
+   
+            .titulogeneral{
+
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 500%;   /*tamaño de la letra*/
+                margin-inline-start: 13cm;
+            }
+    .div1{
+        /* cómo se presenta el contenido*/
+        display: flex;
+        /*  alinearlos es decir la dirección, en este caso es columna */
+        flex-direction: column;
+        /*alinear la caja de contenido*/
+        align-items: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        /*tamaño de letra*/
+        font-size: 20px;
+        
+
+    }
+        a{
+    color: rgb(201, 0, 0);
+    font-size: 0.8cm;
+    /* decoración del texto, es la línea debajo de la ancla*/
+    text-decoration: none;
+        }
+.references{
+    color: brown;
+    /*para poner algo en negritas*/
+    font-weight: bold;
+}
+.sub{
+    font-weight: bold;
+}
+.information{
+    margin-inline-start: 13cm;
+    font-size: 1.2cm;
+    font-weight: bold;
+}
+.imagenes{
+    margin-inline-start: 8cm;
+}
+.imageness{
+    margin-inline-start: 3cm;
+}
+.subtitulos{
+    margin-inline-start: 2cm;
+}
